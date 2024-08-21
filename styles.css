@@ -82,7 +82,17 @@ article img {
 }
 
 
+article:nth-child(odd) {
+    background-color: aquamarine;
+}
 
+section h2:nth-child(-n+3)::before {
+    content: "New! ";
+    color: goldenrod;
+}
+/* h2:nth-child(-n+3) {
+    color: red;
+} */
 
 /* 
 #article_1 {
